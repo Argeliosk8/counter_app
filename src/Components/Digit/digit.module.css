@@ -1,0 +1,17 @@
+.digitdiv {
+    width: 8%;
+    height: 60%;
+    border: solid grey;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.digitdiv p {
+    color: whitesmoke;
+    font-size: 45px;
+}
+
+.digitdiv p span {
+    color: whitesmoke;
+    font-size: 45px;
+}
