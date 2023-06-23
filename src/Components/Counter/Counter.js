@@ -1,10 +1,11 @@
 import React from "react";
-import CounterFunc from "./CounterFunc";
+//import CounterFunc from "./CounterFunc";
 import Digit from "../Digit/Digit";
 import styles from "./counter.module.css"
+import CounterFunct from "./CounterFunct";
 
 function Counter(){
-    const digits = CounterFunc()
+    let digits = CounterFunct()
     
     function renderDigits(){         
         return Object.values(digits).map((digit)=>{
