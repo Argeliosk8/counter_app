@@ -9,7 +9,7 @@ const digits = {
 
 function CounterFunct(){
 
-if(digits.fifthDigit >= -1){
+if(digits.firstDigit >= -1){
     digits.firstDigit += 1
 }
 
