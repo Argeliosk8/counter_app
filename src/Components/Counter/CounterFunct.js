@@ -4,12 +4,12 @@ const digits = {
     fourthDigit: 0,
     thirdDigit: 0,
     secondDigit: 0,
-    firstDigit: 0
+    firstDigit: -1
   }
 
 function CounterFunct(){
 
-if(digits.fifthDigit >= 0){
+if(digits.fifthDigit >= -1){
     digits.firstDigit += 1
 }
 
