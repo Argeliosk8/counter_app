@@ -1,4 +1,3 @@
-
 const digits = {    
     sixthDigit: 0,
     fifthDigit: 0,
@@ -9,8 +8,8 @@ const digits = {
   }
 
 function CounterFunct(){
-  
-if(digits.firstDigit >= 0){
+
+if(digits.fifthDigit >= 0){
     digits.firstDigit += 1
 }
 
@@ -44,8 +43,9 @@ if(digits.sixthDigit === 10){
     digits.sixthDigit = 0
 }
 
-
+  console.log(digits.firstDigit)
   return digits
 }
+
 
 export default CounterFunct;

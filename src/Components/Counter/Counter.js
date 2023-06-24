@@ -8,14 +8,14 @@ function Counter(){
     let digits = CounterFunct()
     
     function renderDigits(){         
-        return Object.values(digits).map((digit)=>{
-            return (<Digit digit={digit}/>)
+        return Object.values(digits).map((digit, key)=>{
+            return (<Digit key={key} digit={digit}/>)
         })
     }
     
     return (
         <div className={styles.counterdiv}>
-            <Digit digit={<span class="material-symbols-outlined">timer</span>}/>
+            <Digit digit={<span className="material-symbols-outlined">timer</span>}/>
             {renderDigits()}
         </div>
     )

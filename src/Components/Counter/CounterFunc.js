@@ -1,3 +1,4 @@
+/*
 import { useState, useEffect } from 'react';
 
 function CounterFunc(){
@@ -7,7 +8,7 @@ function CounterFunc(){
   const [fourthDigit, setFourthDigit] = useState(0)
   const [fifthDigit, setFifthDigit] = useState(0)
   const [sixthDigit, setSixthDigit] = useState(0)
-      
+
   useEffect(()=>{      
     const interval = setInterval(()=>setFirstDigit((prev)=>prev + 1), 1000)
     if(firstDigit === 10){
@@ -53,3 +54,5 @@ const digits = {
 }
 
 export default CounterFunc;
+
+*/
